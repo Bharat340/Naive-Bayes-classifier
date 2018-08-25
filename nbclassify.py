@@ -17,8 +17,8 @@ true_count = count["true_count"]
 pos_count = count["pos_count"]
 line_count = count["line_count"]
 
-# testing_file_path = sys.argv[1]
-testing_file_path = "dev-text.txt" #"test_debug.txt" #
+testing_file_path = sys.argv[1]
+# testing_file_path = "dev-text.txt" #"test_debug.txt" #
 test_file = open(testing_file_path, "r")
 test_data = test_file.read().split("\n")
 
